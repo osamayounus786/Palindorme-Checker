@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100&display=swap");
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: 'Roboto',sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d4d446;
+}
+
+.container{
+    width: 500px;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: #ffff;
+}
+header h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+header p {
+    color: #a5a512;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.ipnutEl input{
+    width: 100%;
+    padding: 0 10px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #c3c38f;
+}
+.ipnutEl input:focus{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.ipnutEl button{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 10px 0px;
+    background-color: #d4d446;
+    color: #ffff;
+    font-weight: 500;
+    opacity: 0.7;
+    pointer-events: none;
+    cursor: pointer;
+}
+.ipnutEl button.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.text-result{
+    text-align: center;
+    font-size: 18px;
+   
+
+}
+
+.text-result span{
+    color: #a5a512;
+}
